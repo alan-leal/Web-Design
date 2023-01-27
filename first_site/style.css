@@ -1,0 +1,53 @@
+      body {
+        color: hotpink;
+        background-color:black;
+        max-width: 334px;
+        margin: 0 auto;
+      }
+      
+      p {
+        background-color: rgba(224, 197, 238, 0.466);
+        border: 1px solid;
+        padding: 20px;
+        margin: 10px auto;
+        width: 298px;
+        /* height: 10px; */
+        text-align: center;
+      }
+
+      p:hover {
+        background-color: azure;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      a {
+        color:rgb(212, 102, 163);
+        text-decoration: none;
+      }
+
+      a:hover {
+        color:deeppink;
+        text-decoration:line-through;
+      }
+
+      /* Using a class */
+      .special {
+        font-size: 17px;
+      }
+
+      .new {
+        background-color: darkgrey;
+      }
+
+      .container {
+        width: 500px;
+        height: 281px;
+      }
+
+      /* how to target two elements within one styling rule */
+      /* p, h1 {
+        color:aqua;
+      } */
