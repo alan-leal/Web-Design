@@ -1,0 +1,96 @@
+body {
+    background-image: url("lilbcandy.jpg");
+    color: black;
+    background-color:bisque;
+    max-width: 334px;
+    margin: 0 auto;
+    /* filter: blur(10px); */
+  }
+
+  h3 {
+    color: whitesmoke;
+    filter:brightness(85%);
+  }
+  
+  p {
+    background-color: rgba(201, 192, 206, 0.466);
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px auto;
+    width: 298px;
+    /* height: 10px; */
+    text-align: center;
+  }
+
+  p:hover {
+    background-color:azure
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  ul {
+    background-color: rgba(201, 192, 206, 0.466);
+    border: 1px solid;
+    /* padding: 20px; */
+    margin: 10px auto;
+    width: 298px;
+    /* height: 10px; */
+    /* text-align: center; */
+  }
+
+  ul:hover {
+    background-color: azure;
+  }
+
+  a {
+    color:black;
+    text-decoration:underline;
+  }
+
+  a:hover {
+    color:brown;
+    text-decoration:line-through;
+  }
+
+  /* Using a class */
+  .special {
+    font-size: 17px;
+  }
+
+  .new {
+    background-color: darkgrey;
+  }
+
+  .container {
+    width: 500px;
+    height: 281px;
+  }
+
+  img {
+    filter:blur(15px);
+    padding: 20px;
+    margin: 10px auto;
+    width: 298px;
+  }
+
+  img:hover {
+    filter: blur(0px);
+  }
+
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 334px;
+    filter: opacity(30%);
+  }
+  
+  button:hover {
+    filter:opacity(100%);
+  }
+
+  /* how to target two elements within one styling rule */
+  /* p, h1 {
+    color:aqua;
+  } */
