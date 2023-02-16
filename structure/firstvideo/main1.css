@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+h2,h3{
+    color:whitesmoke;
+    text-align: center;
+}
+
+
+h4 {
+    bottom: 0;
+    position: absolute;
+    color:whitesmoke;
+    right: 900px;
+} 
+
