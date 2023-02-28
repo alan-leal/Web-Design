@@ -1,0 +1,73 @@
+* {
+    border-spacing: 0;
+}
+
+
+@keyframes colour {
+  0%   {background-color:slategray; }
+  25%  {background-color:rgb(90, 23, 37); }
+  50%  {background-color:slategray; }
+  75%  {background-color:rgb(90, 23, 37); }
+  100% {background-color:slategray; }
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: slategray;
+    animation-name: colour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    /* cubic-bezier(0.055, 0.62, 0.165, 1) */
+    -o-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+
+.shapes_1 {
+    width: 50px;
+  height: 50px;
+  background-color: slategray;
+  position: relative;
+  animation-name: shape-overlay;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shape-overlay {
+    0%   {background-color:rgb(90, 23, 37); left:0px; top:0px; }
+    25%  {background-color:slategray; left:1868px; top:0px;}
+    50%  {background-color:rgb(90, 23, 37); left:1870px; top:887px;}
+    75%  {background-color:slategray; left:0px; top:887px;}
+    100% {background-color:rgb(90, 23, 37); left:0px; top:0px;}
+  }
+
+.shapes_2{
+    width: 50px;
+  height: 50px;
+  background-color: slategray;
+  position: relative;
+  animation-name: shape-overlay-2;
+  animation-delay: 2s;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+/* @keyframes shape-overlay-2 {
+    0%   {background-color:rgb(155, 64, 84); left:1px; top:1px; }
+    25%  {background-color:slategray; left:1868px; top:0px;}
+    50%  {background-color:rgb(155, 64, 84); left:1870px; top:887px;}
+    75%  {background-color:slategray; left:0px; top:887px;}
+    100% {background-color:rgb(155, 64, 84); left:0px; top:0px;}
+  } */
+
+/* experiment with this later */
+/* .shapes:hover {
+    color: aqua;
+} */
