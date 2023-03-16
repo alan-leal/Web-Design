@@ -109,8 +109,4 @@ img {
         margin-top: 28%; */
         /* overflow:auto; */
     }
-
-    img {
-        filter: invert();
-    }
 }
