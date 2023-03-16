@@ -7,6 +7,7 @@ body {
     
     background-image: url(GLOBAL\ CLEAN\ PINK\ BANNER.jpeg);
     background-size:cover;
+    background-position: center;
 }
 
 .container {
@@ -18,18 +19,17 @@ body {
 }
 
 .home-page {
-    /* background: rgb(153, 130, 238); */
     width: 100%;
     height: 75%;
-    /* position:relative; */
+    /* <!-- changing the position from relative to absolute will allow us to position this element freely over our other elements. we could use fixed here as well --> */
+    position: absolute;
     gap: 30px;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     flex-direction: column;
-    
-    align-items: center;
-    margin: 30px -900px;
-}
+    /* <!-- this will just add 30px of padding around the container so  the items aren't right on the edge. this is replacing the margin you had --> */
+    padding: 30px;
+  }
 
 .folder-icon {
     background: rgb(233, 185, 238);

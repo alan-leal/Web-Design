@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(runningthroughtheschool.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    transition: background 1s;
+}
+
+/* header, footer, .side, .center {
+    background: lavenderblush;
+    padding: 10px;
+} */
+
+main {
+    display:flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.stickfigure {
+    position: fixed;
+    /* width: 3%;
+    height: auto; */
+    right: 39%;
+    bottom: 30%;
+    /* margin-left: 60%;
+    margin-top: 28%; */
+    /* overflow:auto; */
+}
+
+img {
+    position: absolute;
+    width: 40px;
+    right: 38%;
+    bottom: 30%;
+    transform: scaleX(-1);
+    /* margin-top: 540px;
+    margin-left:1130px; */
+
+}
+
+/* always place media queries at the bottom of the document */
+@media screen and (max-width: 1666px) {
+    body {
+        background-image: url(vcu.jpg);
+        background-size: 2000px 1000px;
+        /* background-attachment: fixed; */
+        /* transition: background 1s; */
+    }
+
+    .stickfigure {
+        position: fixed;
+        /* width: 3%;
+        height: auto; */
+        right: 39%;
+        bottom: 17%;
+        /* margin-left: 60%;
+        margin-top: 28%; */
+        /* overflow:auto; */
+    }
+
+    img {
+        transform: scaleX(-1);
+    }
+
+    
+}
+
+@media screen and (max-width:1256px) {
+    body {
+        background-image: url(lmao.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        /* background-position: center top -50px; */
+    }
+
+    .stickfigure {
+        position: fixed;
+        /* width: 3%;
+        height: auto; */
+        right: 39%;
+        bottom: 15%;
+        /* margin-left: 60%;
+        margin-top: 28%; */
+        /* overflow:auto; */
+    }
+}
+
+@media screen and (max-width:747px) {
+    body {
+        background-image: url(balance.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        /* background-position: center top -50px; */
+    }
+
+    .stickfigure {
+        position: fixed;
+        /* width: 3%;
+        height: auto; */
+        right: 39%;
+        bottom: 31%;
+        /* margin-left: 60%;
+        margin-top: 28%; */
+        /* overflow:auto; */
+    }
+
+    img {
+        filter: invert();
+    }
+}
