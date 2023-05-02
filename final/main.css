@@ -1,0 +1,172 @@
+* {
+    
+}
+
+
+
+body {
+	font-family: 'Rubik', sans-serif;
+	margin: 0;
+}
+
+.bgImage {
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    background-image: url(ground.jpg);
+    background-size: cover;
+    z-index: -1;
+    filter: blur(6px) brightness(20%);
+}
+
+main {
+    margin: 9px;
+    margin-top: 40px;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.intro h1 {
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .14em; /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+
+a {
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(138, 170, 79);
+}
+
+header * {
+    display: inline;
+}
+
+header {
+	background-color:black;
+    position: fixed;
+	padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+	text-align:justify;
+    display: flex;
+    align-items:center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header a {
+    color:white;
+    text-decoration: none;
+    padding: 0px 2px;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+nav {
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    font-size:x-large;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-align: center;
+    float: none;
+}
+
+/* nav ul {
+	list-style: none;
+	margin: 0;
+} */
+
+nav ul li {
+    padding: 0px 10px;
+}
+
+
+.social-icons {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 16px;
+    right: 90px;
+}
+
+.social-icons:hover {
+    color: darkgray;
+}
+
+main {
+    color: whitesmoke;
+}
+
+ p {
+    width: 45%;
+ }
+
+ /* .container {
+    width: 60%;
+  } */
+  
+.skills {
+    width: 30%;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 25px;
+    opacity: 0.4;
+}
+  
+.java {
+    width: 30%; background-color: #808080;
+}
+
+.c {
+    width: 20%; background-color: #808080;
+}
+
+.html {
+    width: 25%; background-color: #808080;
+}
+
+.css {
+    width: 20%; background-color: #808080;
+}
+
+.js {
+    width: 8%; background-color: #808080;
+}
+
